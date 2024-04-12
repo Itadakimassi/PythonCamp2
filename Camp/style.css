@@ -1,0 +1,238 @@
+
+nav{
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 20px;
+
+background-color: white;
+}
+.links a{
+color: var (green);
+text-decoration: none;
+}
+.links a:hover{
+  color: var(red);
+}
+.links a:visited{
+  color: (blue);
+}
+header {       background-color: white;
+  color: #015a06
+  ;
+  text-align: center;
+  padding: 1em;
+}
+header {
+    background-color: #033305;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #033305;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.img-container{text-align: center;
+background-color: white;}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+ 
+#inicio{ background-color: white;
+    font-size: large;
+    color: rgb(11, 10, 10);
+    font-size: 18px;
+    margin-bottom: 10px;
+    font: 1em sans-serif;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+     }
+h1{font-size: 280%;
+    text-align:center;
+    font:arial;}
+
+#contato{
+    text-align: center;
+    background-color: white(138, 143, 143);
+    color: rgb(24, 21, 21);}
+
+footer{
+    text-align: center;
+    background-color: white (17, 48, 38);
+    color: beige;
+    text-decoration:underline;}
+.cadastro{
+    text-align: center;
+    background-color: white;
+    margin: 0px auto;
+    width: 700px;
+    min-height: 300px;
+
+}
+#cadastrar{
+  width: 100%!important;
+  cursor: pointer;
+  background: #015a06  (61,157, 179);
+  padding: 8px 5px;
+  color: #015a06 ;
+  font-size: 20px;
+    border: 1px solid#015a06 ;
+  margin-bottom: 10px;
+  text-shadow: 0 1px #015a06 ;
+  border-radius: 5px;
+  transition: all 0.2s linear;}
+
+ #tabelacurso{
+    
+    font-size: 36px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    width: 44%;
+    height: 450px;
+    padding: 5px;
+    padding-top: 25px;
+    margin-left: 40px;
+    
+    
+
+  }
+#tabelacurso thead{
+    background-color: black;
+    color: beige;
+  }
+  
+#tabelacurso tr:hover td{
+  cursor: pointer;
+  background-color: rgb(58, 135, 116);
+}
+aside{
+  margin-right: 0px;
+  width: 40%;
+  display: inline;
+  float: right;  }
+
+#listametodos{
+  margin-top: 250px;
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  float: right;
+display: flexbox;}
+  
+#imgmetodos{
+  margin-top: 80px;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  float: left;
+  display: flexbox;}
+
+.sobre{
+  background-color:white
+  (128, 151, 128);
+  font: arial;
+  font-size: 20px;
+}
+.sobre h2, h3{
+  text-align: center;
+}
+.explicandoprogramacao h1{
+background-color: white;
+text-align: center;
+
+}
+#videocomoprogramardozero{
+width: 500px;
+margin: 0 auto;}
+
+.explicandoprogramacao p{
+  font: arial;
+  font-size: 28px;
+  text-align: justify;
+}
+.explicandoprogramacao h2, h3{
+  background-color: white;
+  font-size: 32px;
+  font: arial;
+}
+.exerciciosraciocinio h2, h3{
+  text-align: center;
+  background-color: white;
+  font-size: 32px;
+  font: arial;
+}
+.exerciciosraciocinio p{
+  font: arial;
+  font-size: 28px;
+  text-align: justify;
+}
+#videoexercicio{
+  width: 500px;
+  margin: 0 auto;}
+.videosprogramacao{
+  width: 500px;
+  margin: 0 auto;
+}
+.aprendepython h1, h2, h3{
+  text-align: center;
+  background-color: white;
+  font-size: 32px;
+  font: arial;
+}
+.aprendepython p{
+  font: arial;
+  font-size: 28px;
+  text-align: justify;
+}
+#videopython{
+  width: 500px;
+  margin: 0 auto;
+}
+#cursopython1{
+  
+  width: 500px;
+  margin: 0 auto;
+}
+#cursopython2{
+  
+  width: 500px;
+  margin: 0 auto;
+}
+#cursopython3{
+  
+  width: 500px;
+  margin: 0 auto;
+}
+.cursopythonvideo{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  column-gap: 15px;
+}
+.problemasresto{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns:repeat( 2, 1fr);
+  gap: 10px, 15px;
+}                        

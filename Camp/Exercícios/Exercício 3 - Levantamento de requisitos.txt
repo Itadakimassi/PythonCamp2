@@ -1,0 +1,6 @@
+Alunos: Alexsandra Luna
+	Bruna Menezes
+	Massimiliano Ribeiro
+
+link git:
+https://github.com/Itadakimassi/Projeto-PythonCamp

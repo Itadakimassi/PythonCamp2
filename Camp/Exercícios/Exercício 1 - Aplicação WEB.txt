@@ -1,0 +1,18 @@
+Grupo: Alexsandra Batista de Luna
+	Bruna Rafaela de Menezes Paulino
+	Massimiliano Ribeiro Gomes
+
+
+Exercício I
+
+Site escolhido: Livraria Leitura
+Link: https://leitura.com.br
+
+Responsive Test:
+Itens de compras quebram 270x858 pixels
+
+Network errors:
+
+-204: Nenhum conteúdo/No content
+-304: Não modificado/Not modified
+-302: Found

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PythonCamp</title>
+    <link rel="icon" href="C:\Users\massi\OneDrive\Área de Trabalho\PyIcon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .img-container{text-align: center;}
+</style>
+<body>
+    <div class="img-container">
+        <img src="C:\Users\alexs\Downloads\Camp\Camp\Nova pasta\LOGO.png" alt="logo"
+        width=400 height=200 >
+    </div>
+    <header>        
+        <h1> PythonCamp: Explorando a natureza da programação!
+             </h1>
+        <nav>
+            <ul>
+                <a href="index.html"> <b>Início</b></a><span>   </span>
+                <a href="sobre.html"><b>Sobre</b></a>
+                <a href="cadastro.html"><b>Cadastro</b></a>
+                <a href="cursos.html"><b>Cursos</b></a>                       
+            </ul>
+        </nav>
+    
+</body>
+
+<body>
+    <h1>Aprendendo Números Primos</h1>
+    <h2>Números Primos: Veja como identificá-los</h2>
+    <p><b>Números primos</b> são números maiores que 1 (um) e são divisíveis somente pelo número natural 1 (um) e por ele mesmo. <br>
+    Considerando um exemplo de número primo, podemos citar, por exemplo, 5 (cinco) maçãs, vamos tentar dividir estas maçãs para duas pessoas de forma que às duas pessoas fiquem com a quantidade exata de maçãs. <br>
+    Como 5 (cinco) é um número primo, dessa forma não existe a possibilidade de divisão exata das maçãs, uma pessoa ficará com uma a mais. <br> <br> <br>
+    Estamos considerando números inteiros. Você pode está pensando em <b>dividir</b> uma maçã ao meio ou em <b>frações</b>. Os números primos são <u><b>números inteiros</b></u>. <br>
+    Portanto, só existe uma possibilidade de termos uma divisão exata, que é uma pessoa ficar com todas as maçãs. <br>
+    O termo primo se refere a primeiro. Todos os números primos são ímpares com exceção do número 2 (dois) que é par e, portanto, é o único número par do conjunto dos primos. <br>
+    O número 1 (um) não pertence ao conjunto dos primos, pois ele não tem dois divisores. Somente é divisível por ele mesmo. <br>
+    Os números divisíveis por vários números são chamados compostos.
+
+    <h3>Exemplos de números primos</h3>
+    <li><b>2</b> é um numero primo, pois só é divisível por 1 e por ele mesmo <br> </li>
+    <li><b>17</b> é primo pois também só é divisível por 1 e por ele mesmo <br></li>
+    <li><b>20</b> não é primo, pois é divisível por <b>1, 2, 4, 5, 10 e 20</b>. É um número composto</li>
+
+    <h3>Identificando números primos</h3>
+    <p>Identificar se um número é primo é bastante fácil, basta dividir o número em questão. Para agilizar essa divisão, pode-se utilizar os <i>critérios de divisibilidade</i> só que com números primos. <br>
+    Ao fazer a divisão, um número é primo se: <b>o resto da divisão for diferente de zero e o quociente for menor que o divisor</b>.</p>
+    <h2>Exemplo</h2>
+    <p>Considere o número <b>31</b><br>
+    Usando os critérios de divisibilidade:</p>
+    <li><b>31</b> Não é divisível por <b>2</b>, pois não é um número par.</li>
+    <li><b>31</b> Não é divisível por <b>3</b>, pois as somas dos seus algarismos é <b>4</b>, e 4 não é divisível por <b>3</b>.</li>
+    <li><b>31</b> Não é divisível por <b>5</b>, pois não termina em <b>0</b> e nem em 5.</li>
+    <li><b>31</b> não é divisível por <b>11</b>, pois a soma dos seus algarismos de ordem ímpar não é divisível por 11, não existem números pares em 31</li>
+    <p> Portanto, como o quociente de 31 dividido por 11 é menor que o divisor, paramos por aqui e concluímos que 31 é primo. Este processo pode ser utilizado para qualquer número primo.</p>
+   
+    <h2>Decomposição em fatores primos</h2>
+    <p>Podemos decompor qualquer número natural maior que 1 (um) em fatores primos. Para decompor um número em fatores primos devemos utilizar somente números primos para dividir o número em questão.
+    Esse processo de decomposição é chamado <b>fatoração de um número natural</b>.</p>
+    <h2>Regras da fatoração</h2>
+    <p><b>1.</b> Dividir o número pelo seu menor divisor que é primo; <br>
+    <b>2.</b> Dividir o quociente obtido pelo seu menor divisor primo, da mesma forma; <br>
+    <b>3.</b> Repetir esse processo até encontrar o quociente 1 (um).</p> 
+
+    <h3>Exemplo 1</h3>    
+    <table>
+    <table style="border: 2cap;">
+        <tr>
+            <th>Dividendo</th>
+            <th>Divisor</th>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    <p>Dividimos o quociente 16 por 2, pois é o menor divisor que é primo. Fizemos o mesmo processo para 8 e assim por diante, até obtermos o quociente 1. Assim, 16 = 24.</p>
+    <h3>Exemplo 2</h3>
+    <table>
+        <table style="border: 2cap;">
+            <tr>
+                <th>Dividendo</th>
+                <th>Divisor</th>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td colspan="2"></td>
+            </tr>
+            </table>
+<p>Dividimos 100 por 2, menor primo, depois 50 por 2, 25 só pode ser dividido por 5, menor número primo que divide o número 25, e, por fim, 5 só pode ser divisível por ele mesmo.
+    Assim: 100 = 2² x 5².</p>
+
+    <h2>EXERCÍCIOS</h2>
+    <p><b>1.</b> Calcule o produto dos 7 primeiros números primos em ordem crescente.</p>
+    <img src="C:\Users\massi\OneDrive\Documentos\Camp\Nova pasta\RESPOSTA2.png" alt="resposta">
+    <p><b>2.</b> Calcule o MDC de 10 e 20.</p>
+    <img src="C:\Users\massi\OneDrive\Documentos\Camp\Nova pasta\RESPOSTA1.png" alt="resposta1">
+</body>
+</html>

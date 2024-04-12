@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hello World </title>
+	<meta charset= "UTF-8">
+	</head>
+<body>
+	<h1> My first page </h1>
+	<h2> Somos a equipe mais inteligente </h2>
+	<h4> Estudar HTML urgente </h4>
+<a href="https://google.com"> Google </a><br>
+<a targe="_blank" href="https://google.com"> Google </a>
+<p> <i>This</i> is our first page and we are <u>trying</u> to do something <b>cool</b>! </p>
+<img src="hi.jpeg" alt="alexsandra" border="5" weidht="120px"/>
+
+</body>
+</html>
